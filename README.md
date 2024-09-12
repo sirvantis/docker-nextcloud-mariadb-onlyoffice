@@ -26,11 +26,12 @@
 
 3. Now launch the browser and enter the webserver address. The Nextcloud wizard webpage will be opened. Enter all the necessary data to complete the wizard.
 
-4. Go to the project folder and run the `set_configuration.sh` script:
+4. Go to the project folder and run this commands:
 
     **Please note**: the action must be performed with **root** rights.
 
     ```
+    chmod +x set_configuration.sh
     bash set_configuration.sh
     ```
 5. (Optional) You can check state of your ONLYOFFICE server by this command:
