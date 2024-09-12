@@ -8,7 +8,7 @@
 
 ## Installation
 
-1. Get the latest version of this repository running the command:
+1. Get this repository running the command:
 
     ```
     git clone https://github.com/sirvantis/docker-nextcloud-mariadb-onlyoffice/
@@ -19,7 +19,7 @@
     **Please note**: the action must be performed with **root** rights.
 
     ```
-    docker-compose up -d
+    docker compose up -d
     ```
 
     **Please note**: you might need to wait a couple of minutes when all the containers are up and running after the above command.
