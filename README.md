@@ -33,7 +33,10 @@
     ```
     bash set_configuration.sh
     ```
-
+5. (Optional) You can check state of your ONLYOFFICE server by this command:
+   ```
+   docker exec -u www-data app-server php occ onlyoffice:documentserver --check
+   ```
 **Please note**: The default JWT (secret key) is enabled in ONLYOFFICE Document Server. It is recommended to specify your own secret key in the Nextcloud administrative configuration and [ONLYOFFICE Docs](https://helpcenter.onlyoffice.com/installation/docs-configure-jwt.aspx).
 
 Now you can enter Nextcloud and create a new document. It will be opened in ONLYOFFICE Document Server. 
