@@ -1,5 +1,5 @@
 ## Document Server and Nextcloud Docker installation
-
+Tested on  Nextcloud Hub 8 (29.0.5), Onlyoffice Document Server 8.1.1.26, Mariadb 11.5.2
 ## Requirements
 
 * The latest version of Docker (can be downloaded here: [https://docs.docker.com/engine/installation/](https://docs.docker.com/engine/installation/))
