@@ -9,7 +9,7 @@ Docker compose (can be downloaded here: https://docs.docker.com/compose/install/
 Installation
 Get the latest version of this repository running the command:
 
-git clone --recursive https://github.com/tvollscw/docker-onlyoffice-nextcloud-mysql
+git clone --recursive (https://github.com/sirvantis/docker-nextcloud-mariadb-onlyoffice)
 cd docker-onlyoffice-nextcloud-mysql
 git submodule update --remote
 Run Docker Compose:
